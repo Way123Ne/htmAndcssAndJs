@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>表单</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+</head>
+
+<body>
+	<form action="" method="">
+		<h2>修改个人信息</h2>
+		<table width="500">
+			<tr>
+				<td width="70" height="35">姓名:</td>
+				<td width="180"><input type="text" value="" />
+				</td>
+			</tr>
+			<tr>
+				<td height="35">性别:</td>
+				<td width="180"><input type="radio" id="rexFemal" name="sex"
+					checked="checked" /> <label for="rexFemal">女士</label> <input
+					type="radio" id="rexMal" name="sex" /> <label for="rexMal">男士</label>
+				</td>
+			</tr>
+			<tr>
+				<td height="35">学历:</td>
+				<td><select>
+						<option>其他</option>
+						<option>专科</option>
+						<option>本科</option>
+						<option>硕士及以上</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td valign="top">个人描述:</td>
+				<td width="280"><textarea rows="5" cols="30"></textarea></td>
+			</tr>
+			<tr>
+				<td height="35"></td>
+				<td><input type="checkbox" id="chkPublic" /> <label
+					for="chkPublic">不要公开我的个人信息</label></td>
+			</tr>
+			<tr>
+				<td height="35"></td>
+				<td><input type="submit" value="保存" /> <input type="reset"
+					value="重填" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
