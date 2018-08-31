@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery01.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+<script type="text/javascript" src="./scripts/jquery-1.6.2.min.js"></script>
+<script>
+	//DOM对象转换成jQuery对象
+	function f1() {
+		var id = document.getElementById('a1');
+		var aaa = $(id);
+		alert(aaa.html());
+	}
+	//jQuery对象转换成DOM对象
+	function f2() {
+		var id2 = $('#a2');
+		//var obj = $obj.get(0);
+		var bbb = id2.get()[0];
+		alert(bbb.innerHTML);
+	}
+</script>
+</head>
+
+<body>
+	<!--  -->
+	<a id="a1" href="javascript:;" onclick="f1();"> DOM对象-->jQuery对象</a>
+	<br>
+	<br />
+
+	<a id="a2" href="javascript:;" onclick="f2();"> jQuery对象-->DOM对象</a>
+	<br>
+	<br />
+</body>
+</html>
