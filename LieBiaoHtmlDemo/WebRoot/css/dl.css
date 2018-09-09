@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+#new dt {
+	width: 108px;
+	height: 24px;
+	border-bottom: dashed 1px #099;
+	padding-left: 20px;
+	float: left;
+}
