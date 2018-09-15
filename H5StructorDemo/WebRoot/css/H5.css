@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+#news p {
+	text-indent: 2em;
+}
+
+#news footer {
+	text-indent: 36em;
+}
+
