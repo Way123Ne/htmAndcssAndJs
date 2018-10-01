@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>使用js中函数</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+</head>
+
+<body>
+	<script type="text/javascript">
+		function funReturn() {
+			var a = 10;
+			var b = Math.sqrt(a);
+			return b / 2 + a;
+		}
+		function funReturn2() {
+			var a = 10;
+			var b = Math.sqrt(a);
+			var c = b / 2 + a;
+		}
+		document.write("第一个函数的返回值为:"+funReturn());
+		document.write("<hr>第二个函数的返回值为:"+funReturn2());
+	</script>
+</body>
+</html>
